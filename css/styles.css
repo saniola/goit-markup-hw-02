@@ -1,0 +1,100 @@
+/* Resetting default styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+:root {
+  --primary-color: #212121;
+  --secondary-color: #8c8c8c;
+  --accent-color: #6f64f8;
+  --background-color: #ffffff;
+  --footer-background-color: #262626;
+  --button-color: #ffffff;
+  --button-background-color: #6f64f8;
+  --button-hover-background-color: #5953c6;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--button-hover-background-color);
+}
+
+button {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+button:focus {
+  background-color: var(--button-hover-background-color);
+}
+
+/* Classes for specific elements */
+.hero {
+  background-color: var(--footer-background-color);
+  color: var(--button-color);
+}
+
+.services-item,
+.portfolio-item,
+.team-member {
+  background-color: var(--background-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.team-member img {
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: var(--footer-background-color);
+  color: var(--button-color);
+}
+
+/* Continue with specific class styles as needed */
