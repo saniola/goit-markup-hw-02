@@ -1,17 +1,17 @@
 /* Typography */
 :root {
-	--iris: #4d5ae5;
-	--ocean: #404bbf;
-	--navy-blue: #2e2f42;
-	--green: #31d0aa;
-	--slate: #434455;
-	--light-slate: #8e8f99;
-	--cornflower: #e7e9fc;
-	--cloud: #f4f4fd;
-	--navy-blue-modal: rgba(46, 47, 66, 0.4);
-	--grey: rgba(46, 47, 66, 0.7);
-	--white: #fff;
-	--dairy: #fcfcfc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
@@ -39,9 +39,17 @@ body {
   color: var(--iris);
 }
 
+.logo.footer {
+  color: var(--white);
+}
+
 .nav-item {
   color: var(--navy-blue);
   font-weight: 500;
+}
+
+.contact {
+  color: var(--slate);
 }
 
 .phone span {
@@ -74,6 +82,10 @@ body {
   line-height: 1.2;
 }
 
+.service-text {
+  color: var(--slate);
+}
+
 .portfolio-title,
 .team-title {
   color: var(--navy-blue);
@@ -93,6 +105,7 @@ body {
 
 .team-position {
   text-align: center;
+  color: var(--slate);
 }
 
 .portfolio-group {
@@ -109,7 +122,8 @@ body {
 .portfolio-group.active {
   background: var(--ocean);
   color: var(--white);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-name {
