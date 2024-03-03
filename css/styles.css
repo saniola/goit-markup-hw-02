@@ -58,8 +58,18 @@ body {
   font-weight: 500;
 }
 
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--ocean);
+}
+
 .contact {
   color: var(--slate);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--ocean);
 }
 
 .phone span {
@@ -83,6 +93,12 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--ocean);
 }
 
 .service-title {
@@ -127,6 +143,7 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--iris);
+  cursor: pointer;
 }
 
 .portfolio-group.active {
